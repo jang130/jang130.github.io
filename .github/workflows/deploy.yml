@@ -28,8 +28,6 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
         with:
-          # Automatically inject properties from the GitHub Pages context into the Next.js config
-          # This is optional but can be helpful
           static_site_generator: next
       - name: Install dependencies
         run: npm ci
